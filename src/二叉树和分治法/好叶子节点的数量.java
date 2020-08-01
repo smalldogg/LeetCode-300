@@ -6,4 +6,7 @@ package 二叉树和分治法;
  */
 
 public class 好叶子节点的数量 {
+    public int countPairs(TreeNode root, int distance) {
+        return 0;
+    }
 }

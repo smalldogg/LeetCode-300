@@ -47,5 +47,35 @@ public class 岛屿的个数 {
             }
         }
     }
+
+
+       public int numIslands2(char[][] grid) {
+        if (grid == null || grid.length <= 0 || grid[0].length <= 0) {
+            return 0;
+        }
+        int result = 0;
+        int N = grid.length;
+        int M = grid[0].length;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                if (grid[i][j] == '1') {
+                    result++;
+                    infect(grid, i, j, N, M);
+                }
+            }
+        }
+        return result;
+    }
+
+
+    private void infect(char[][] grid, int i, int j, int n, int m) {
+        if (i < 0 || i >= n || j < 0 || j >= m || grid[i][j] == '2') return; //invaild
+        grid[i][j] = '2';
+        infect(grid, i, j, n, m);
+        infect(grid, i, j, n, m);
+        infect(grid, i, j, n, m);
+        infect(grid, i, j, n, m);
+    }
+
 }
 

@@ -27,13 +27,21 @@ public class 柱状图中最大的矩形 {
     }
 
 
+    /**
+     * 单调栈
+     * @param heights
+     * @return
+     */
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) return 0;
         int max = 0;
         Stack<Integer> stack = new Stack<>();
         stack.push(-1);
         for (int i = 0; i < heights.length; ++i) {
-
+            while (!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
+                //计算结果
+            }
+            stack.push(i);
         }
         return max;
     }

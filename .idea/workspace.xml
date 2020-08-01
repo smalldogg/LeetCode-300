@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/Algocasts/P.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/Algocasts/StreamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/Algocasts/二进制求和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/Algocasts/回文字符串判断.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/Algocasts/求和为给定值的两个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/BFRT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/SynchronizedTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/UndirectedGraphNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/不同岛屿的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/僵尸矩阵.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/克隆图.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/判断图是否是树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/单词接龙.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/岛屿的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/找到无向图的连通块.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/拓扑排序$DirectedGraphNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/拓扑排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/搜索图中的点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/无向图中的最短路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/腐烂的橘子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/课程表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/迷宫.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/迷宫2$Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/迷宫2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/迷宫3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/邮局的建立.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/邮局的建立2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/骑士的最短路径$Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/骑士的最短路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/BFS/骑士的最短路径2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/k数和2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/n皇后.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/n皇后2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/不同的路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/全排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/分割回文串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/分割回文串2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/判断子序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/单词接龙2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/单词搜索.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/单词搜索2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/子集.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/子集2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/字符串的不同排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/带重复元素的排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/找出树中每行的最大值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/换硬币.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/搜索单词.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/攀爬字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/数字组合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/数字组合2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/数组的子集.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/机器人的运动范围.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/求和为给定值的组合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/生成括号.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/电话号码的字母组合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/矩阵中的最长递增路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/组合总和Ⅳ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/DFS/路径总和2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_0105/前缀异或和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_0105/获取你好友已观看的视频.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_0105/解码字母到整数映射.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_1229/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_1229/两棵二叉搜索树中的所有元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_1229/和为零的N个唯一整数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/_1229/跳越游戏.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/你能从盒子里获得的最大糖果数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/划分数组为连续数字的集合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/子串的最大出现次数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/LeetCode/统计位数为偶数的数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/x的平方根.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/二分枚举.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/二分查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/字符串查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/对x开根II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/寻找峰值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/寻找旋转排序数组中的最小值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/寻找旋转排序数组中的最小值II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/恢复旋转排序数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/排序数组中最接近元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/搜索二维矩阵.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/搜索区间.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/搜索插入位置.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/搜索旋转排序数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/搜索旋转排序数组II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/旋转字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/最长回文子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/目标最后位置.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/第一个错误的代码版本$SVNRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/第一个错误的代码版本.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/第一次出现.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/第一次只出现一次的字符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/经典二分查找问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/统计比给定整数小的数的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二分/颜色分类.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/BSTIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/BST中第K小的元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/不同的二叉搜索树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/中序遍历和后序遍历树构造二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉搜索树中删除节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉搜索树中第k小的元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉搜索树中节点的最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉搜索树的最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉查找树中搜索区间.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉查找树的中序后继.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉查找树迭代器.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树中的列表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树中的最大路径和$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树中的最大路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树叶子节点之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树后序遍历.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树最长连续序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的中序遍历.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的前序遍历.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的右视图.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的层次遍历.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的层次遍历II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的序列化和反序列化.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的所有路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的最大深度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的最大路径和II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的最小深度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的最长连续子序列II$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的最长连续子序列II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的直径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的路径和II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/二叉树的锯齿形层次遍历.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/具有最大平均数的子树$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/具有最大平均数的子树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/删除二叉查找树的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/前序遍历和中序遍历构造二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/另一个树的子树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/合并两棵二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/在二叉查找树中插入节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/填充每个节点的下一个右侧节点指针.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/好叶子节点的数量.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/对称树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/将二叉树拆成链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/将二叉树按照层级转化为链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/将二叉树转换成双链表$DoublyListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/将二叉树转换成双链表$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/将二叉树转换成双链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/左叶子的和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/平衡二叉树$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/平衡二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/把排序数组转换为高度最小的二叉搜索树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/拍平二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/最小子树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/最近公共祖先II$ParentTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/最近公共祖先II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/有序链表转换为二分查找树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/根节点到叶节点求和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/检查平衡性$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/检查平衡性.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/相同的树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/统计完全二叉树的节点数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/翻转二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/节点与其祖先之间的最大差值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/验证二叉查找树$ReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/验证二叉查找树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/验证完全二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/二叉树和分治法/验证满二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/前缀和/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/二进制中1的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/删除链表的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/剪绳子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/打印从1到最大的n位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/数值的整数次方.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/整数拆分.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/机器人的运动范围.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/剑指Offer/表示数值的字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/三角形最小路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/不同的路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/俄罗斯套娃信封$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/俄罗斯套娃信封.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/分割数组的最大值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/完全平方数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/数字三角形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/最大整除子集.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/最小路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/最长上升子序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/最长回文子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/爬楼梯.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/编辑距离.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/跳格子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/跳跃游戏.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/跳跃游戏2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/阶乘.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/动态规划/除数博弈.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/单调栈/柱状图中最大的矩形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/三数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/三角形计数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数之和2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数之和_不同组成.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数和2输入已排序的数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数和_小于或等于目标值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数和_差等于目标值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/两数和的最接近值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/去除重复元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/和大于S的最小子数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/四数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/奇偶分割数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/字符串查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/字符大小写排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/恢复旋转排序数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/排序矩阵中的从小到大第k个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/数据流中位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/数组划分.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/整数反转.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/旋转字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/无重复字符的最长子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/最多有k个不同字符的最长子字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/最接近的三数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/最长无重复字符的子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/有效回文串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/滑动窗口内数的和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/滑动窗口的中位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/移动零.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/双指针/颜色分类.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/DynamicProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/Env.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/IPeople.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/MyHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/哈希表和堆/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/MyLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/UnsafeInsatance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/冒泡排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/堆排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/归并排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/快速排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/插入排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/数组中的第K个最大元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/第k大元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/排序/选择排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/丑数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/堆化.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/括号生成.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/整数反转.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/整数转罗马数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/有效的括号.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数据结构/罗马数字转整数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/两个数组的交集.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/两个数组的交集2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/两组数字和相等.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/合并排序数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/合并排序数组2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/子数组之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/字符串中的第一个唯一字符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/容器盛水问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/数组的下一个排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/旋转数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/旋转有序数组的搜索.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最大子数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最大的交换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最大矩形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最接近零的子数组和$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最接近零的子数组和$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/最接近零的子数组和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/查找数组中的所有重复项.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/直方图中的最大矩形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/矩阵中的最大正方形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/荷兰国旗问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/跳数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/数组/连续子数组求和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/K组翻转链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/两两交换链表中的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/两两交换链表中的节点_递归.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除排序链表中的重复元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除排序链表中的重复元素II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除排序链表中的重复元素_递归.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除排序链表中的重复数字2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除链表中倒数第n个节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除链表中的元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除链表的倒数第N个节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/删除链表节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/单链表中间节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/合并两个排序链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/向循环有序链表插入节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/回文链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/复制带随机指针的链表$RandomListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/复制带随机指针的链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/带环链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/带环链表2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/旋转单链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/旋转链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/无序链表的重复项删除.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/有序链表转换为二分查找树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/翻转链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/翻转链表2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/重排链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode-300/链表和数组/链表划分.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS/岛屿的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS/岛屿的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS/判断子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/判断子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS/矩阵中的最长递增路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/矩阵中的最长递增路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/二叉搜索树的最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/二叉搜索树的最近公共祖先.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/二叉树中的列表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/二叉树中的列表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/好叶子节点的数量.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/好叶子节点的数量.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/对称树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/对称树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/检查平衡性.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/检查平衡性.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/节点与其祖先之间的最大差值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/节点与其祖先之间的最大差值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二叉树和分治法/路径总和3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树和分治法/路径总和3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/分割数组的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/分割数组的最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/最小路径和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/编辑距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/编辑距离.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/除数博弈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/除数博弈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/单调栈/柱状图中最大的矩形.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/单调栈/柱状图中最大的矩形.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\program\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dzpd5mbtPPzfSkgOb6lG41X4op" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.跳格子">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="跳格子 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.跳格子" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="跳格子" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.跳格子" />
+      <module name="LeetCode-300" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="对称树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二叉树和分治法.对称树" />
+      <module name="LeetCode-300" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="二叉树和分治法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.跳格子" />
+        <item itemvalue="Application.跳格子 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="" />
+      <created>1593437859904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593437859904</updated>
+      <workItem from="1593437861153" duration="402000" />
+      <workItem from="1594304739383" duration="240000" />
+      <workItem from="1594432761798" duration="3503000" />
+      <workItem from="1594449044219" duration="615000" />
+      <workItem from="1594517587806" duration="3033000" />
+      <workItem from="1594606636532" duration="108000" />
+      <workItem from="1594690553672" duration="2373000" />
+      <workItem from="1594730885676" duration="1809000" />
+      <workItem from="1594790301349" duration="377000" />
+      <workItem from="1594903923206" duration="624000" />
+      <workItem from="1594949956284" duration="4602000" />
+      <workItem from="1595125148689" duration="1942000" />
+      <workItem from="1595155484237" duration="1307000" />
+      <workItem from="1595249256535" duration="598000" />
+      <workItem from="1595325204530" duration="626000" />
+      <workItem from="1595334928569" duration="629000" />
+      <workItem from="1595390113064" duration="318000" />
+      <workItem from="1595401592367" duration="53000" />
+      <workItem from="1595420341873" duration="777000" />
+      <workItem from="1595506811728" duration="1085000" />
+      <workItem from="1595598579970" duration="1282000" />
+      <workItem from="1595641675986" duration="381000" />
+      <workItem from="1595664884805" duration="1648000" />
+      <workItem from="1595679791458" duration="5686000" />
+      <workItem from="1595728135915" duration="5286000" />
+      <workItem from="1595762760212" duration="598000" />
+      <workItem from="1595812457417" duration="2150000" />
+      <workItem from="1595828155430" duration="2256000" />
+      <workItem from="1595936244697" duration="1754000" />
+      <workItem from="1595939306074" duration="778000" />
+      <workItem from="1595943501920" duration="1476000" />
+      <workItem from="1596028234502" duration="854000" />
+      <workItem from="1596029896795" duration="20000" />
+      <workItem from="1596029940890" duration="52000" />
+      <workItem from="1596030183219" duration="7000" />
+      <workItem from="1596030262641" duration="2589000" />
+      <workItem from="1596111410012" duration="83000" />
+      <workItem from="1596111514083" duration="4800000" />
+      <workItem from="1596158384383" duration="17000" />
+      <workItem from="1596202947396" duration="1918000" />
+      <workItem from="1596208497750" duration="46000" />
+      <workItem from="1596247984111" duration="3747000" />
+    </task>
+    <task id="LOCAL-00001" summary="2020年7月第二周">
+      <created>1595163094675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595163094675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年7月第二周" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年7月第二周" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/二叉树和分治法/对称树.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
