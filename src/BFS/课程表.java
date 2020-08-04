@@ -15,9 +15,9 @@ public class 课程表 {
         List<List<Integer>> graph = new ArrayList<>();
         int[] in = new int[numCourses];
 
-        for (int i = 0; i < numCourses; i++) {
+        for (int i = 0; i < numCourses; i++)
             graph.add(new ArrayList<>());
-        }
+
 
         for (int[] pre : prerequisites) {
             graph.get(pre[1]).add(pre[0]);
@@ -26,20 +26,17 @@ public class 课程表 {
 
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < in.length; i++) {
-            if (in[i] == 0) {
+            if (in[i] == 0)
                 queue.offer(i);
-            }
         }
-
         int cnt = 0;
         while (!queue.isEmpty()) {
             cnt++;
             int v = queue.poll();
             for (int next : graph.get(v)) {
                 --in[next];
-                if (in[next] == 0) {
+                if (in[next] == 0)
                     queue.offer(in[next]);
-                }
             }
         }
         return cnt == numCourses;
