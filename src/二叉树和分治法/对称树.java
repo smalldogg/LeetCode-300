@@ -5,13 +5,6 @@ package 二叉树和分治法;
  */
 public class 对称树 {
 
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-        isSymmetric(root);
-    }
-
     public static boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
         return dfs(root.right, root.left);
