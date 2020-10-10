@@ -9,7 +9,7 @@ public class 跳跃游戏 {
         for (int i = 1; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 if (dp[j] && A[j] + j >= i) {
-                    dp[j] = true;
+                    dp[i] = true;
                 }
             }
         }

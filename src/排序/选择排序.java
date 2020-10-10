@@ -14,6 +14,18 @@ public class 选择排序 {
         }
     }
 
+
+    public void selectSort2(int[] nums) {
+        if (nums == null || nums.length == 0) return;
+        for (int i = 0; i < nums.length; ++i) {
+            int minIdx = i;
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[minIdx] < nums[j]) minIdx = j;
+            }
+            swap(nums, i, minIdx);
+        }
+    }
+
     public void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];

@@ -12,6 +12,15 @@ public class 插入排序 {
         }
     }
 
+    public void insertSort1_1(int[] nums) {
+        if (nums == null || nums.length == 0) return;
+        for (int i = 1; i < nums.length; ++i) {
+            for (int j = i - 1; j >= 0 && nums[j] > nums[j + 1]; --j)
+                swap(nums, j, j + 1);
+        }
+    }
+
+
     public void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];

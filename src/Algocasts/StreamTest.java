@@ -1,5 +1,7 @@
 package Algocasts;
 
+import org.omg.CORBA.PRIVATE_MEMBER;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -8,6 +10,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author wangyh
@@ -85,7 +88,7 @@ public class StreamTest {
         list.add(p4);
         //filterRelation(list);
         //stopRelation(list);
-        listtoStirng();
+        //listtoStirng();
     }
 
 
@@ -101,7 +104,7 @@ public class StreamTest {
         sb.append("a");
         sb.append(",");
         System.out.println(sb.capacity());
-        String id = sb.substring(0, sb.capacity()- 1);
+        String id = sb.substring(0, sb.capacity() - 1);
         System.out.println(id);
     }
 

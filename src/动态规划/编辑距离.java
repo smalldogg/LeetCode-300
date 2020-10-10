@@ -6,7 +6,7 @@ package 动态规划;
  */
 
 public class 编辑距离 {
-    //dp[i][j] word1 的前i个字符转成eord
+    //dp[i][j] word1 的前i个字符转成word2
     public int minDistance(String word1, String word2) {
         int len1 = word1.length(), len2 = word2.length();
         int[][] dp = new int[len1 + 1][len2 + 1];

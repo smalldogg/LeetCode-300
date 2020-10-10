@@ -13,7 +13,7 @@ public class 子集 {
         Arrays.sort(nums);
         List<Integer> list = new ArrayList<>();
         help(nums, 0, list, results);
-        return  results;
+        return results;
     }
 
     //1.递归的定义：找到所有子集
@@ -28,4 +28,17 @@ public class 子集 {
             list.remove(list.size() - 1);
         }
     }
+
+
+    private void dfs(int[] nums, int start, List<Integer> list,
+                     List<List<Integer>> results) {
+        results.add(new ArrayList<>(list));
+        for (int i = start; i < nums.length; ++i) {
+            list.add(nums[i]);
+            dfs(nums, i + 1, list, results);
+            list.remove(list.size() - 1);
+        }
+    }
+
+
 }
