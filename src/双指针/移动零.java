@@ -2,13 +2,8 @@ package 双指针;
 
 public class 移动零 {
 
-    public static void main(String[] args) {
 
-        String s = "b#a#c##d##e";
-        System.out.println(move(s));
-    }
-
-    public static String move(String str) {
+    public  String move(String str) {
         char[] chs = str.toCharArray();
         int l = 0;
         int r = 0;
