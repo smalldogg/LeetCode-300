@@ -20,6 +20,13 @@ public class 二叉树的右视图 {
         return result;
     }
 
+    /**
+     * 这里解释一下为什么需要depth
+     * 每一层我们只需要一个节点，在bfs中可以通过层数控制
+     * @param node
+     * @param result
+     * @param depth
+     */
     private void dfs(TreeNode node, List<Integer> result, int depth) {
         if (node == null) return;
         if (depth == result.size()) result.add(node.val);
