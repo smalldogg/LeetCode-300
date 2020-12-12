@@ -6,9 +6,9 @@ package 剑指Offer;
  */
 
 public class 表示数值的字符串 {
-		public boolean isNumber( String s ) {
-				boolean res = true;
+    public boolean isNumber(String s) {
+        boolean res = true;
 
-				return res;
-		}
+        return res;
+    }
 }
