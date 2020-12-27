@@ -9,19 +9,23 @@ import java.util.Queue;
  */
 
 public class 节点与其祖先之间的最大差值 {
-    int result = 0;
+		int result = 0;
 
-    public int maxAncestorDiff(TreeNode root) {
-        dfs(root, 0, 0);
-        return result;
-    }
+		public int maxAncestorDiff( TreeNode root ) {
+				dfs( root, 0, 0 );
+				return result;
+		}
 
-    private void dfs(TreeNode node, int max, int min) {
-        if (node == null) return;
-        if (node.val < min) min = node.val;
-        if (node.val > max) max = node.val;
-        if (node.left == null && node.right == null) result = Math.max(result, max - min);
-        dfs(node.left, max, min);
-        dfs(node.right, max, min);
-    }
+		private void dfs( TreeNode node, int max, int min ) {
+				if( node == null )
+						return;
+				if( node.val < min )
+						min = node.val;
+				if( node.val > max )
+						max = node.val;
+				if( node.left == null && node.right == null )
+						result = Math.max( result, max - min );
+				dfs( node.left, max, min );
+				dfs( node.right, max, min );
+		}
 }

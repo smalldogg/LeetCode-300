@@ -6,8 +6,8 @@ package 动态规划;
  */
 
 public class 分割数组的最大值 {
-    public int splitArray(int[] nums, int m) {
-        
-        return 0;
-    }
+		public int splitArray( int[] nums, int m ) {
+
+				return 0;
+		}
 }
