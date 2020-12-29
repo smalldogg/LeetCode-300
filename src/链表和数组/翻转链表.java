@@ -15,4 +15,20 @@ public class 翻转链表 {
 				}
 				return pre;
 		}
+
+
+		/**
+		 * 使用递归的方式
+		 *
+		 * @param head
+		 * @return
+		 */
+		public ListNode reverse2( ListNode head ) {
+				if( head == null || head.next == null )
+						return head;
+				ListNode node = reverse2( head.next );
+				head.next.next = head;
+				head.next = null;
+				return node;
+		}
 }
