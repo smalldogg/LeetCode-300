@@ -6,8 +6,8 @@ package 链表和数组;
  */
 
 public class 删除链表节点 {
-    public void deleteNode(ListNode node) {
-        node.val = node.next.val;
-        node.next = node.next.next;
-    }
+		public void deleteNode( ListNode node ) {
+				node.val = node.next.val;
+				node.next = node.next.next;
+		}
 }

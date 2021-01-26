@@ -7,13 +7,13 @@ package 数组;
 
 public class 数组的下一个排列 {
 
-    private void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
-    }
+		private void swap( int[] nums, int i, int j ) {
+				int tmp = nums[i];
+				nums[i] = nums[j];
+				nums[j] = tmp;
+		}
 
-    public void nextPermutation(int[] nums) {
+		public void nextPermutation( int[] nums ) {
 
-    }
+		}
 }

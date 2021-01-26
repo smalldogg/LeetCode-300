@@ -15,10 +15,8 @@ public class 机器人的运动范围 {
         if (x < 0 || x >= m || y < 0 || y >= n ||
                 v[x][y] || (getSum(x) + getSum(y)) > k) return 0;
         v[x][y] = true;
-        return 1 + dfs(x + 1, y, m, n, k, v)
-								 + dfs(x - 1, y, m, n, k, v)
-                 + dfs(x, y + 1, m, n, k, v)
-							   + dfs(x, y - 1, m, n, k, v);
+        return 1 + dfs(x + 1, y, m, n, k, v) + dfs(x - 1, y, m, n, k, v)
+                + dfs(x, y + 1, m, n, k, v) + dfs(x, y - 1, m, n, k, v);
     }
 
     private int getSum(int num) {
