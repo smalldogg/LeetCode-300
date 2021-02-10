@@ -6,21 +6,21 @@ package 数组;
  */
 
 public class 旋转数组 {
-		private void reverse( int[] nums, int i, int j ) {
-				for( ; i < j; ++i, --j ) {
-						int tmp = nums[i];
-						nums[i] = nums[j];
-						nums[j] = tmp;
-				}
-		}
+    private void reverse(int[] nums, int i, int j) {
+        for (; i < j; ++i, --j) {
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+        }
+    }
 
-		// Time: O(n), Space: O(1)
-		public void rotateBySwap( int[] nums, int k ) {
-				if( nums == null || nums.length == 0 || k <= 0 )
-						return;
-				int n = nums.length, m = k % n;
-				reverse( nums, 0, n - 1 );
-				reverse( nums, 0, m - 1 );
-				reverse( nums, m, n - 1 );
-		}
+    // Time: O(n), Space: O(1)
+    public void rotateBySwap(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k <= 0)
+            return;
+        int n = nums.length, m = k % n;
+        reverse(nums, 0, n - 1);
+        reverse(nums, 0, m - 1);
+        reverse(nums, m, n - 1);
+    }
 }

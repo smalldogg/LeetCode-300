@@ -9,22 +9,22 @@ import java.util.Set;
  */
 
 public class 删除子数组的最大得分 {
-		public int maximumUniqueSubarray(int[] nums) {
-				int res = 0;
-				int sum = 0;
-				int l = 0, r = 0;
-				Set<Integer> set = new HashSet<>();
-				for (int i = 0; i < nums.length; ++i) {
-						while (set.contains(nums[r])) {
-								sum -= nums[l];
-								set.remove(nums[l]);
-								l++;
-						}
-						set.add(nums[r]);
-						sum += nums[r];
-						r++;
-						res = Math.max(sum, res);
-				}
-				return res;
-		}
+    public int maximumUniqueSubarray(int[] nums) {
+        int res = 0;
+        int sum = 0;
+        int l = 0, r = 0;
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < nums.length; ++i) {
+            while (set.contains(nums[r])) {
+                sum -= nums[l];
+                set.remove(nums[l]);
+                l++;
+            }
+            set.add(nums[r]);
+            sum += nums[r];
+            r++;
+            res = Math.max(sum, res);
+        }
+        return res;
+    }
 }

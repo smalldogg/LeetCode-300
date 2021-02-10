@@ -6,11 +6,11 @@ package 剑指Offer;
  */
 
 public class 打印从1到最大的n位数 {
-		public int[] printNumbers( int n ) {
-				int counter = (int) Math.pow( 10, n );
-				int[] res = new int[counter - 1];
-				for( int i = 1; i < counter; i++ )
-						res[i - 1] = i;
-				return res;
-		}
+    public int[] printNumbers(int n) {
+        int counter = (int) Math.pow(10, n);
+        int[] res = new int[counter - 1];
+        for (int i = 1; i < counter; i++)
+            res[i - 1] = i;
+        return res;
+    }
 }

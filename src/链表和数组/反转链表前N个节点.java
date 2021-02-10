@@ -6,18 +6,19 @@ package 链表和数组;
  */
 
 public class 反转链表前N个节点 {
-		ListNode NPlusNode = null;
-		ListNode reverseN(ListNode head, int n) {
-				//base case
-				if (n == 1) {
-						NPlusNode = head.next;
-						return head;
-				}
-				ListNode node = reverseN( head.next, n - 1 );
-				head.next.next = head;
-				head.next = NPlusNode;
+    ListNode NPlusNode = null;
+
+    ListNode reverseN(ListNode head, int n) {
+        //base case
+        if (n == 1) {
+            NPlusNode = head.next;
+            return head;
+        }
+        ListNode node = reverseN(head.next, n - 1);
+        head.next.next = head;
+        head.next = NPlusNode;
 
 
-				return null;
-		}
+        return null;
+    }
 }

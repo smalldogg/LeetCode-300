@@ -6,7 +6,7 @@ package 双指针;
  */
 
 public class 排序矩阵中的从小到大第k个数 {
-		public int kthSmallest( int[][] matrix, int k ) {
-				return 0;
-		}
+    public int kthSmallest(int[][] matrix, int k) {
+        return 0;
+    }
 }
