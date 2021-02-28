@@ -11,9 +11,6 @@ import java.util.Map;
  */
 
 public class 外星语 {
-    public static void main(String[] args) {
-        System.out.println(4 % 5);
-    }
 
     public static boolean isAlienSorted(String[] words, String order) {
         char[] chs = order.toCharArray();

@@ -1,9 +1,8 @@
 package 数组;
 
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,26 +13,14 @@ import java.util.Map;
  */
 
 public class 字符串排序 {
-
-    public static void main(String[] args) {
-        sortChar("aabbccewsafdsfsaa");
-    }
-
-
-
-    public static void sortChar(String str) {
+    public void sortChar(String str) {
         if (str == null || str.length() == 0) return;
         Map<Character, Integer> map = new HashMap<>();
         char[] chs = str.toCharArray();
         for (int i = 0; i < chs.length; ++i) {
             map.put(chs[i], map.getOrDefault(chs[i], 0) + 1);
         }
-        List<Map.Entry> list = new ArrayList<>(map.entrySet());
-        Collections.sort(list, new Comparator<Map.Entry>() {
-            @Override
-            public int compare(Map.Entry o1, Map.Entry o2) {
-                return 0;
-            }
-        });
+        List<Map.Entry<Character, Integer>> list = new ArrayList<>(map.entrySet());
+        Collections.sort(list, (o1, o2) -> { return o2.getValue() - o1.getValue(); });
     }
 }
