@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/单调数列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/单调数列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/字符串排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/字符串排序.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -702,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614395162697</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="单调数列">
+      <created>1615026532459</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1615026532459</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -21,6 +21,8 @@ public class 字符串排序 {
             map.put(chs[i], map.getOrDefault(chs[i], 0) + 1);
         }
         List<Map.Entry<Character, Integer>> list = new ArrayList<>(map.entrySet());
-        Collections.sort(list, (o1, o2) -> { return o2.getValue() - o1.getValue(); });
+        Collections.sort(list, (o1, o2) -> {
+            return o2.getValue() - o1.getValue();
+        });
     }
 }

@@ -16,12 +16,12 @@ public class 单调数列 {
                 break;
             }
         }
-        for (int  i = 1; i < nums.length; ++i) {
+        for (int i = 1; i < nums.length; ++i) {
             if (nums[i] > nums[i - 1]) {
                 reuslt2 = false;
                 break;
             }
         }
-        return  result1 || reuslt2;
+        return result1 || reuslt2;
     }
 }
