@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 分割回文串 {
-    //n 个字母的组合问题  就是n - 1 个的组合问题
+    //n 个字母的组合问题  就是n - 1 个的排列
     // n - 1个组合问题
     public List<List<String>> partition(String s) {
         List<List<String>> results = new ArrayList<>();
