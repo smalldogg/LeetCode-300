@@ -23,4 +23,11 @@ public class 寻找旋转排序数组中的最小值 {
         else
             return nums[end];
     }
+
+    public int findMin2(int[] nums) {
+
+        return 0;
+    }
+
+
 }
