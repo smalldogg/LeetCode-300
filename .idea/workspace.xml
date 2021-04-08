@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyThread/CountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyThread/PrintABC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -92,7 +91,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CountDown">
+  <component name="RunManager" selected="Application.Point">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,52 +140,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.Point" />
+      <module name="LeetCode-300" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyThread.PrintABC" />
       <module name="LeetCode-300" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="存在连续三个奇数的数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.存在连续三个奇数的数组" />
-      <module name="LeetCode-300" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="机器人的运动范围" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.机器人的运动范围" />
-      <module name="LeetCode-300" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="主要元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.主要元素" />
-      <module name="LeetCode-300" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -331,19 +302,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="存在连续三个奇数的数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.存在连续三个奇数的数组" />
+      <module name="LeetCode-300" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="机器人的运动范围" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.机器人的运动范围" />
+      <module name="LeetCode-300" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="主要元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.主要元素" />
+      <module name="LeetCode-300" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,6 +377,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.CountDown" />
         <item itemvalue="Application.PrintABC" />
         <item itemvalue="Application.合并K个排序链表" />
@@ -552,7 +555,9 @@
       <workItem from="1617432790449" duration="10950000" />
       <workItem from="1617587603165" duration="759000" />
       <workItem from="1617604637345" duration="49000" />
-      <workItem from="1617604699449" duration="5004000" />
+      <workItem from="1617604699449" duration="19937000" />
+      <workItem from="1617761093656" duration="980000" />
+      <workItem from="1617762570149" duration="7960000" />
     </task>
     <task id="LOCAL-00001" summary="2020年7月第二周">
       <created>1595163094675</created>
@@ -813,7 +818,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617521929962</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="thread">
+      <created>1617630517160</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1617630517160</updated>
+    </task>
+    <task id="LOCAL-00039" summary="删除重复项">
+      <created>1617778874216</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1617778874216</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,8 +868,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020年7月第二周" />
-    <MESSAGE value="删除重复代码" />
     <MESSAGE value="2020-11-19修改新增代码" />
     <MESSAGE value="2020-11-19修改代码" />
     <MESSAGE value="二叉树右视图添加注释" />
@@ -874,7 +891,9 @@
     <MESSAGE value="other" />
     <MESSAGE value="&#10;下标0∼N−1位置上的数通过直接赋值的方式替换成1∼N" />
     <MESSAGE value="合并k个排序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并k个排序链表" />
+    <MESSAGE value="thread" />
+    <MESSAGE value="删除重复项" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除重复项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
