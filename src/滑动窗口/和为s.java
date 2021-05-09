@@ -1,8 +1,8 @@
 package 滑动窗口;
 
+import java.util.concurrent.CountDownLatch;
+
 public class 和为s {
-
-
     public boolean finds(int[] nums, int s) {
         if (nums == null || nums.length == 0) return false;
         int max = nums[0];
@@ -14,6 +14,4 @@ public class 和为s {
         }
         return cur == s;
     }
-
-
 }
