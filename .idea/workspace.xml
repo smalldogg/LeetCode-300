@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="删除重复项">
-      <change afterPath="$PROJECT_DIR$/src/滑动窗口/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/滑动窗口/Option.java" afterDir="false" />
+    <list default="true" id="d31656ad-e63f-46b3-a9cc-1fff23abfbeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-300/前缀和/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-300/前缀和/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/前缀和/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/前缀和/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/滑动窗口/和为s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/滑动窗口/和为s.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -569,7 +564,7 @@
       <workItem from="1618970369093" duration="1360000" />
       <workItem from="1619853006362" duration="1384000" />
       <workItem from="1620180839473" duration="3495000" />
-      <workItem from="1620531856091" duration="308000" />
+      <workItem from="1620531856091" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="2020年7月第二周">
       <created>1595163094675</created>
@@ -858,7 +853,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618230517053</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="删除多余文件">
+      <created>1620532256172</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1620532256172</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +896,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树右视图添加注释" />
     <MESSAGE value="修改" />
     <MESSAGE value="为完成代码。。。待补充" />
     <MESSAGE value="dfa关键词匹配" />
@@ -919,7 +920,8 @@
     <MESSAGE value="删除重复项" />
     <MESSAGE value="最大子数组" />
     <MESSAGE value="链表合集" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表合集" />
+    <MESSAGE value="删除多余文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除多余文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -928,11 +930,6 @@
           <url>file://$PROJECT_DIR$/src/Algocasts/二进制求和.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滑动窗口/和为s.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
