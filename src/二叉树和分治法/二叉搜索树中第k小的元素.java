@@ -14,6 +14,7 @@ public class 二叉搜索树中第k小的元素 {
         }
     }
 
+    /////reset
 
     private int getSum(TreeNode root) {
         if (root == null)
