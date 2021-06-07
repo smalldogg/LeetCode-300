@@ -84,7 +84,6 @@ public class StreamTest {
 				list.add( p4 );
 				//filterRelation(list);
 				//stopRelation(list);
-				//listtoStirng();
 		}
 
 
