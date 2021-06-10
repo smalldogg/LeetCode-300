@@ -6,7 +6,7 @@ package Algocasts;
  */
 
 public class 回文字符串判断 {
-		//dev
+		//devbranch
 		private boolean isAlphanumeric( char c ) {
 				return ( c >= 'a' && c <= 'z' ) || ( c >= 'A' && c <= 'Z' ) || ( c >= '0' && c <= '9' );
 		}
